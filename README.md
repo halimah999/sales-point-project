@@ -8,6 +8,7 @@ This project handle three types of modeles. The system starting with set of prod
 
 **1. product**: the product table contains &rarr; `product_id` ,`product_name`,`product_price`,`barcode`.<br /><br />
 <p align="center">
+<img src ="./img/product.png ">
     ![the product table](./img/product.png "product table")
 </p>
 
