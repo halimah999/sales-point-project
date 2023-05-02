@@ -4,7 +4,7 @@
 the objective project is to bulid backend system by create API and apply CRUD methods on database with Implementation these  methods on  JPA Entities. and to build our code into an architecture layers to improve productivity.
 
 ## Application layers: 
-in general we divided our project into 5 components: <br /><br />
+In general we divided our project into 5 components: <br />
 - Controller: to handeling HTTP requests.
 - Dao : we dealt with dao as service to make bussines logic , but in future we will seprate between Daos and Services layers
 - Entity:  contains classes mapped to tables
