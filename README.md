@@ -3,7 +3,13 @@
 ## Introduction
 the objective project is to bulid backend system by create API and apply CRUD methods on database with Implementation these  methods on  JPA Entities. and to build our code into an architecture layers to improve productivity.
 
-## File Strcuture:
+## Application layers: 
+in general we divided our project into 5 components: <br /><br />
+- Controller: to handeling HTTP requests.
+- Dao : we dealt with dao as service to make bussines logic , but in future we will seprate between Daos and Services layers
+- Entity:  contains classes mapped to tables
+- Dto: Data transfer object, we used it  here  for certain purposes to save order also to save sales based on product and order . And to choose require field of entities during interact with client
+- Repository: to manipulation of databases
 
 ## Models in projects
 This project handle three types of modeles. The system starting with set of products and the user start ordring by use barcode for each product ,and the total of price is calculated by some bussines of logic . the purpose sales modele is to show the history of sales for each order by showing the name and price of each product.
