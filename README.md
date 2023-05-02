@@ -13,9 +13,15 @@ This project handle three types of modeles. The system starting with set of prod
 
 <br />
 
-**2. order**  : the order table contains   &rarr; `order_id`   , `total`. <br />
-**3. sale**   : the sale table contains    &rarr;  `sale_id`   , `product_id`.
+**2. order**  : the order table contains   &rarr; `order_id`   , `total`.<br /><br />
+<p align="center" style="text-align:center">
+<img src ="./img/order.png ">
+</p>
 
+**3. sale**   : the sale table contains    &rarr;  `sale_id`   , `product_id`.<br /><br />
+<p align="center" style="text-align:center">
+<img src ="./img/sale.png ">
+</p>
 ## Testing 
 in the testing process we started with :<br />
 
