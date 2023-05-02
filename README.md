@@ -6,8 +6,11 @@ the objective project is to bulid backend system by create API and apply CRUD me
 ## Models in projects
 This project handle three types of modeles. The system starting with set of products and the user start ordring by use barcode for each product ,and the total of price is calculated by some bussines of logic . the purpose sales modele is to show the history of sales for each order by showing the name and price of each product.
 
-**1. product**: the product table contains &rarr; `product_id` ,`product_name`,`product_price`,`barcode`.<br /><br /><br /><br />
-![the product table](./img/product.png "product table"){ width="800" height="600" style="display: block; margin: 0 auto" }
+**1. product**: the product table contains &rarr; `product_id` ,`product_name`,`product_price`,`barcode`.<br /><br />
+<p align="center">
+    ![the product table](./img/product.png "product table")
+</p>
+
 <br />
 
 **2. order**  : the order table contains   &rarr; `order_id`   , `total`. <br />
